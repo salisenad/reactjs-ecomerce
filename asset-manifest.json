@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactjs-ecomerce/static/css/main.d5781a99.chunk.css",
+    "main.js": "/reactjs-ecomerce/static/js/main.c79a7ce0.chunk.js",
+    "main.js.map": "/reactjs-ecomerce/static/js/main.c79a7ce0.chunk.js.map",
+    "runtime-main.js": "/reactjs-ecomerce/static/js/runtime-main.cdb00a0a.js",
+    "runtime-main.js.map": "/reactjs-ecomerce/static/js/runtime-main.cdb00a0a.js.map",
+    "static/js/2.2bc0bdec.chunk.js": "/reactjs-ecomerce/static/js/2.2bc0bdec.chunk.js",
+    "static/js/2.2bc0bdec.chunk.js.map": "/reactjs-ecomerce/static/js/2.2bc0bdec.chunk.js.map",
+    "index.html": "/reactjs-ecomerce/index.html",
+    "precache-manifest.5719b7796a4ccb0cf2cb0385fc1f9cf6.js": "/reactjs-ecomerce/precache-manifest.5719b7796a4ccb0cf2cb0385fc1f9cf6.js",
+    "service-worker.js": "/reactjs-ecomerce/service-worker.js",
+    "static/css/main.d5781a99.chunk.css.map": "/reactjs-ecomerce/static/css/main.d5781a99.chunk.css.map",
+    "static/js/2.2bc0bdec.chunk.js.LICENSE.txt": "/reactjs-ecomerce/static/js/2.2bc0bdec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdb00a0a.js",
+    "static/js/2.2bc0bdec.chunk.js",
+    "static/css/main.d5781a99.chunk.css",
+    "static/js/main.c79a7ce0.chunk.js"
+  ]
+}
