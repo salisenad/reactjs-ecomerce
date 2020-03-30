@@ -21,6 +21,11 @@ const Menu = ({history}) => (
                  style={isActive(history, '/')}
                   to="/">Home</Link>
              </li>
+             <li className="nav-item"
+             style={isActive(history, "/shop")}
+             to="/shop">
+                 Shop
+             </li>
              <li className="nav-item">
                  <Link
                  style={isActive(history, '/admin/dashboard')}

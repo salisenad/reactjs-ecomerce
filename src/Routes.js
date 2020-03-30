@@ -2,20 +2,22 @@ import React from 'react'
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Signin from './user/signin';
-import Signup from './user/Signup'
-import Home  from './core/Home'
+import Signup from './user/Signup';
+import Home  from './core/Home';
 import Menu from './core/Menu';
-import PrivateRoute from './auth/PrivateRoute'
+import PrivateRoute from './auth/PrivateRoute';
 import Dashboard from './user/UserDashboard'
 import AdminRoute from './auth/AdminRoute';
-import AdminDashboard from "./user/AdminDashboard"
-import AddCategory from "./admin/AddCategory"
-import AddProduct from "./admin/AddProduct"
+import AdminDashboard from "./user/AdminDashboard";
+import AddCategory from "./admin/AddCategory";
+import AddProduct from "./admin/AddProduct";
+import Shop  from './core/Shop';
 
 const Routes = () => {
     return (<BrowserRouter>
         <Switch>
             <Route path="/" exact component={Home}/>
+            <Route path="/shop" exact component={Shop}/>
             <Route path="/signin" exact component={Signin}/>
             <Route path="/signup" exact component={Signup}/>
             <Route path="/user/dashboard" exact component={Dashboard}/>
